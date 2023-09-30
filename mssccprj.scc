@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[tasktracker.vbp]
+SCC_Aux_Path =C:\vss,
+SCC_Project_Name ="$/TaskTracker2", KIAAAAAA

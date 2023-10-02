@@ -2,7 +2,7 @@
 
 Legacy Nonhierarchical File Manager (developed in Visual Basic 6 between 2003 and 2007)
 
-tasktracker.wordwisesolutions.com/
+tasktracker.wordwisesolutions.com
 
 Compiles in Visual Basic 6, Service Pack 6, Windows XP/2000/2003/Vista/7
 

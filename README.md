@@ -1,8 +1,8 @@
 # TaskTracker: Intelligent Design Meets The File Organizer
 
-Nonhierarchical File Manager (developed in Visual Basic 6 between 2003 and 2007)
+**Nonhierarchical File Manager (developed in Visual Basic 6 between 2003 and 2007)**
 
-tasktracker.wordwisesolutions.com
+Visit [TaskTracker](http://tasktracker.wordwisesolutions.com) site.
 
 Compiles in Visual Basic 6, Service Pack 6, Windows XP/2000/2003/Vista/7
 

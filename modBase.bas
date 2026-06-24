@@ -377,7 +377,7 @@ errlog:
 End Function
 
 Sub Main()
-   CheckOS
+'   CheckOS     'workaround for Tablet PC error in current Windows versions
 '   Load Form1
    If Command$ = "-m" Then
       If Form1.mTaskbar.Checked = False Then

@@ -377,7 +377,7 @@ errlog:
 End Function
 
 Sub Main()
-'   CheckOS     'workaround for Tablet PC error in current Windows versions
+'   CheckOS     -Disable Tablet PC check, which causes an error in current Windows versions
 '   Load Form1
    If Command$ = "-m" Then
       If Form1.mTaskbar.Checked = False Then
@@ -391,12 +391,12 @@ Sub Main()
 End Sub
 
 Public Sub CheckOS()
-'   If Str(GetSystemMetrics(SM_TABLETPC)) <> 0 Then   
-'      If GetSetting("TaskTracker", "Settings", "COMCTL32") <> "6.0.81.6" Then    'set by installer
-'         fnOpenURL ("http://tasktracker.wordwisesolutions.com/support/TabletPC.htm")  
-'         MsgBox "TaskTracker does not support Tablet PC Edition.", vbCritical
-'         End    
-'      End If    
-'   End If
+   If Str(GetSystemMetrics(SM_TABLETPC)) <> 0 Then   
+      If GetSetting("TaskTracker", "Settings", "COMCTL32") <> "6.0.81.6" Then    'set by installer
+         fnOpenURL ("http://tasktracker.wordwisesolutions.com/support/TabletPC.htm")  
+         MsgBox "TaskTracker does not support Tablet PC Edition.", vbCritical
+         End    
+      End If    
+   End If
 End Sub
 
